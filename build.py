@@ -380,7 +380,7 @@ def build_binary(args):
 
     header("* Building binaries: " + " ".join(args.target))
 
-    run_cargo_build(args)
+    # run_cargo_build(args)
 
     dump_flag_header()
 
